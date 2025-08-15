@@ -59,7 +59,6 @@ function isSame(arr1, arr2) {
 
 
 function resultReport(marks) {
-    // You have to write your code here
     if (!Array.isArray(marks)) {
         return "Invalid";
     }
@@ -93,3 +92,23 @@ function resultReport(marks) {
         fail: fail
     };
 }
+
+
+
+
+
+
+// console.log(totalFine(200));
+
+// console.log(onlyCharacter(true))
+
+// const p1 = { name: "Germany", foul: 10, cardY: 1, cardR: 1 };
+// const p2 = { name: "France", foul: 10, cardY: 2, cardR: 1 };
+// console.log(bestTeam(p1, p2));
+
+// const a1 = [34, 5, 7, 9];
+// const a2 = [34, 5, 7];
+// console.log(isSame(a1, a2));
+
+// const allMarks = [98, 87, 67, 91, 92, 33, 87];
+// console.log(resultReport(allMarks));
