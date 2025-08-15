@@ -38,3 +38,58 @@ function bestTeam(player1, player2) {
     }
 }
 
+
+function isSame(arr1, arr2) {
+    if (!Array.isArray(arr1) || !Array.isArray(arr2)) {
+        return "Invalid";
+    }
+
+    if (arr1.length !== arr2.length) {
+        return false;
+    }
+
+    for (let i = 0; i < arr1.length; i++) {
+        if (arr1[i] !== arr2[i]) {
+            return false;
+        }
+    }
+
+    return true;
+}
+
+
+function resultReport(marks) {
+    // You have to write your code here
+    if (!Array.isArray(marks)) {
+        return "Invalid";
+    }
+
+    let total = 0;
+    let pass = 0;
+    let fail = 0;
+    for (const mark of marks) {
+        total += mark;
+        if (mark >= 40) {
+            pass++;
+        }
+        else {
+            fail++;
+        }
+    }
+
+    const totalSubjects = marks.length;
+    const average = Math.round(total / totalSubjects);
+    if (totalSubjects === 0) {
+        return {
+            finalScore: 0,
+            pass: 0,
+            fail: 0
+        };
+    }
+
+    return {
+        finalScore: average,
+        pass: pass,
+        fail: fail
+    };
+}
