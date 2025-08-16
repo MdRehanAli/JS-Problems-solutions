@@ -15,5 +15,3 @@ for (const num of nums) {
     reverse.unshift(num)
 }
 console.log(reverse);
-
---------------------------------------------------------------------------------
