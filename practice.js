@@ -207,3 +207,13 @@ else if (age >= 60) {
 else{
     console.log(ticketFare);
 }
+
+// Swap
+let c = 50;
+let d = 30;
+
+const temp = c;
+c = d;
+d = temp;
+
+console.log(c,d);
