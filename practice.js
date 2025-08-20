@@ -217,3 +217,10 @@ c = d;
 d = temp;
 
 console.log(c,d);
+
+// Alternative way 
+let g = 20;
+let f = 25;
+
+[g, f] = [f, g];
+console.log(g , f);
