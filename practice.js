@@ -1,22 +1,22 @@
 // problem 1:
-myMoney = 1000;
-applePrice = 400;
-orangePrice = 300;
-totalPrice = (applePrice + orangePrice);
-remainingBalance = (myMoney - totalPrice);
+const myMoney = 1000;
+const applePrice = 400;
+const orangePrice = 300;
+const totalPrice = (applePrice + orangePrice);
+const remainingBalance = (myMoney - totalPrice);
 console.log(remainingBalance);
 
 // problem 2:
-var Mathematics = 75.25;
-var Biology = 65;
-var Chemistry = 80;
-var Physics = 35.45;
-var Bangla = 99.50;
+const Mathematics = 75.25;
+const Biology = 65;
+const Chemistry = 80;
+const Physics = 35.45;
+const Bangla = 99.50;
 
-var totalSubject = 5;
+const totalSubject = 5;
 
-var totalMarks = (Mathematics + Biology + Chemistry + Physics + Bangla);
-var averageMarks = totalMarks / totalSubject;
+const totalMarks = (Mathematics + Biology + Chemistry + Physics + Bangla);
+const averageMarks = totalMarks / totalSubject;
 console.log(parseFloat(averageMarks.toFixed(2)));
 
 // Problem 3:
@@ -41,7 +41,7 @@ Free Drinks
     - Else Coke: 30tk
 */
 
-var burgerPrice = 600;
+const burgerPrice = 600;
 if (burgerPrice > 500) {
     console.log("Free Coke");
 }
@@ -66,8 +66,8 @@ Create a JavaScript program that calculates the Body Mass Index (BMI) and assign
 */
 
 
-var weight = 70;
-var height = 1.6764
+const weight = 70;
+const height = 1.6764
 
 const BMI = weight / height ** 2;
 console.log(BMI);
@@ -98,7 +98,7 @@ Create a simple JavaScript program that takes a student's score as input and ret
 
 ***/
 
-var score = 85;
+const score = 85;
 if (score >= 90 && score <= 100) {
     console.log("Grade = A")
 }
