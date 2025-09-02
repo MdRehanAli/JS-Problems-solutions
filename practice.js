@@ -189,8 +189,8 @@ Ticket fare Calculator
 */
 
 var ticketFare = 800;
-var age = 15;
-var student = true;
+const age = 15;
+const student = true;
 
 if (age < 10) {
     console.log("Free for you.");

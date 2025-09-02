@@ -1,17 +1,90 @@
-// Reverse an array
-const nums = [1, 5, 7, 8, 9, 11];
+/***
 
-const reversed = [];
-for (let i = 0; i < nums.length; i++) {
-    reversed.unshift(nums[i]);
+"I will invest at least 6 hrs every single day for next 60 days!" this message 60 times. So display this.
+
+ */
+
+let message = 1;
+while (message <= 60) {
+    console.log(message, "I will invest at least 6 hrs every single day for next 60 days!");
+    message++;
 }
 
-console.log(reversed);
+/***
+
+Subtask-1:
+
+Find all the odd numbers from 61 to 100.
+
+ */
 
 
-// Reverse an array Using for of
-const reverse = [];
-for (const num of nums) {
-    reverse.unshift(num)
+/***
+
+Subtask-2:
+
+Find all the even numbers from 78 to 98.
+
+ */
+
+let num1 = 61;
+while (num1 <= 100) {
+    if (num1 % 2 != 0) {
+        console.log(num1);
+    }
+    num1++;
 }
-console.log(reverse);
+
+let num2 = 78;
+while (num2 <= 98) {
+    if (num2 % 2 == 0) {
+        console.log(num2);
+    }
+    num2++;
+}
+
+
+/***
+
+Subtask-1:
+
+Display sum of all the odd numbers from 81 to 131.
+
+ */
+/***
+
+Subtask-2:
+
+Display sum of all the even numbers from 206 to 311.
+
+ */
+
+let num3 = 81;
+let sum = 0;
+while (num3 <= 131) {
+    if (num3 % 2 != 0) {
+        sum += num3;
+    }
+    num3++;
+}
+console.log(sum);
+
+let num4 = 206;
+let sum2 = 0;
+
+while (num4 <= 311) {
+    if (num4 % 2 == 0) {
+        sum2 += num4;
+    }
+    num4++;
+}
+console.log(sum2);
+
+
+/***
+
+As Ersa is learning now, she wants to explore more and more. Tell Ersa to generate a multiplication table for number 5
+
+ */
+
+
