@@ -129,8 +129,8 @@ Note:
 use nested if-else-if-else
 */
 
-var myScore = 85;
-var friendsScore = 88;
+const myScore = 85;
+const friendsScore = 88;
 
 if (myScore >= 80) {
     if (friendsScore >= 80) {
@@ -163,8 +163,8 @@ also, write it using ternary operator.
 
  */
 
-var num1 = 5;
-var num2 = 10;
+const num1 = 5;
+const num2 = 10;
 var result;
 // if (num1 > num2){
 //     result = num1 * 2
