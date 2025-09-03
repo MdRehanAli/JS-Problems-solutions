@@ -173,6 +173,6 @@ Write a loop that goes from 1 to 100, but stops (using break) when it encounters
 for (let i = 1; i < 100; i++) {
     if (i ** i <= 100) {
         console.log("First Square root is: ", i * i);
-        break
+        break;
     }
 }
